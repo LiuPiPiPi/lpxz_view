@@ -1,19 +1,2 @@
-# LPxz-View
-
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+# lpxz_view
+个人学习分享平台：前端页面实现（React）
