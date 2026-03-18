@@ -1,17 +1,10 @@
-:root {
-    --font-family-base: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
-    --font-family-heading: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
-}
-
 html,
 body,
 #app {
     height: 100%;
     margin: 0;
     padding: 0;
-    font-family: var(--font-family-base);
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+    /* background-color: #efefef; */
     background-attachment: fixed;
     background-size: cover;
     background-position: left top;
@@ -43,7 +36,7 @@ input[type="number"] {
 }
 
 footer {
-    font-family: var(--font-family-base);
+    font-family: 'Microsoft YaHei';
 }
 
 .m-margin-small {
@@ -186,8 +179,8 @@ footer {
 }
 
 .m-box {
-    font-family: var(--font-family-base);
-    line-height: 1.6;
+    /* transition: all 0.25s ease 0s, opacity 0.6s cubic-bezier(0.5, 0, 0, 1) 0s !important; */
+    font-family: Arial, 'Microsoft YaHei';
 }
 
 /* .m-box:hover {
@@ -276,12 +269,12 @@ footer {
 }
 
 .m-font-ali {
-    font-family: var(--font-family-heading) !important;
+    font-family: 'Microsoft Yahei', Arial !important;
 	font-size: 1.2rem !important;
 }
 
 .m-font-simHei {
-    font-family: var(--font-family-heading) !important;
+    font-family: 'SimHei' !important;
 }
 
 .ui.comments .comment .text img {
@@ -290,20 +283,11 @@ footer {
 }
 
 .ui.header {
-    font-family: var(--font-family-heading) !important;
-}
-
-.ui.header h1,
-.ui.header h2,
-.ui.header h3,
-.ui.header h4,
-.ui.header h5,
-.ui.header h6 {
-    font-family: var(--font-family-heading) !important;
+    font-family: 'Microsoft Yahei', Arial !important;
 }
 
 .ui.horizontal.list {
-    font-family: var(--font-family-base) !important;
+    font-family: 'Microsoft Yahei', Arial !important;
 }
 
 .ui.segment {
